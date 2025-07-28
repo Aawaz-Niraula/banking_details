@@ -1,4 +1,2 @@
-# banking_details
-
-This is a program that shows the banking details of a user
-(GITHUB PROJECT 1)
+PROJECTS
+This is a collection of all my projects
