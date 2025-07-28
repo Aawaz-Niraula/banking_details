@@ -10,7 +10,7 @@ def print_row(row):
     
 
 def get_payout(row, bet):
-    if row[0] == row[1] == row[2] == row[3]:
+    if row[0] == row[1] == row[2]:
      if row[0] == 'A':
        return bet * 3
      elif row[0] == 'B':
@@ -52,7 +52,7 @@ def main():
         payout = get_payout(row, bet)
         
         if payout > 0:
-           print(f"You won rs{payout}")
+           print(f"You won ${payout}")
         else:
            print("Sorry you lost")
 
